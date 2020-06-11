@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainUISkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:dliyun="dliyun.*">
+	<dliyun:NavigationUI id="navigationUI" skinName="NavigationUISkin" left="0" verticalCenter="0"/>
+	<dliyun:LeftUI id="leftUI" verticalCenter="0" left="134" skinName="LeftUISkin"/>
+	<dliyun:RightUI id="rightUI" skinName="RightUISkin" right="0" verticalCenter="0"/>
+</e:Skin>

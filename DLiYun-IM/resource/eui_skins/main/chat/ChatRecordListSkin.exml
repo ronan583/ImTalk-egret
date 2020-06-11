@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatRecordListSkin" width="221" height="67" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:dliyun="dliyun.*">
+
+
+
+
+	<e:Group left="0" top="0" bottom="0" right="0">
+		<e:Image id="selectImg" source="contacts_list_bg_png" scale9Grid="1,1,13,13" scaleX="1" scaleY="1" top="0" left="0" right="0" bottom="0"/>
+		<e:Image id="headImg" source="WechatIMG6_png" width="49" height="49" left="8" x="5" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0"/>
+		<e:Label id="nickName" text="{data.nickName}" x="60.6" y="14" size="12" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+		<e:Label id="bottomTxt" x="61.6" y="36" size="10" fontFamily="Microsoft YaHei" textColor="0xc3c1c1" text="{data.bottomTxt}" scaleX="1" scaleY="1"/>
+		<e:Label id="rightTxt" y="15.85" size="10" fontFamily="Microsoft YaHei" textColor="0xc3c1c1" text="{data.rightTxt}" scaleX="1" scaleY="1" right="2" textAlign="right"/>
+		<e:Label id="nickName0" x="48.58" y="8.98" size="13" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" text="22222222222222..." visible="false"/>
+		<e:Label id="bottomTxt0" x="49.78" y="31.98" size="11" fontFamily="Microsoft YaHei" textColor="0xC3C1C1" scaleX="1" scaleY="1" text="12345678901234567890123" visible="false"/>
+		<e:Label id="rightTxt0" y="11.25" size="11" fontFamily="Microsoft YaHei" textColor="0xC3C1C1" scaleX="1" scaleY="1" right="6" textAlign="right" text="22:22" visible="false"/>
+		<e:Label id="onlineLabel" text="在线" y="52" fontFamily="Microsoft YaHei" size="9" textColor="0x08cf41" right="9"/>
+		<e:Label id="offlineLabel" text="离线" y="52" fontFamily="Microsoft YaHei" size="9" right="9" textColor="0xc3c1c1"/>
+	</e:Group>
+	<dliyun:RedDotNumber x="4" y="3" skinName="RedDotNumberSkin" id="unreadCountLabel" visible="false"/>
+
+</e:Skin>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SystemMsgUISkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="1634" height="18">
+	<e:Label id="timeLabel" text="系统消息" size="12" fontFamily="Microsoft YaHei" textColor="0xa1a1a1" y="3" left="0" right="0" textAlign="center"/>
+</e:Skin>

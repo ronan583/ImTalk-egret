@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatImagePanelSkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bgImg" width="1920" height="1080" source="dlyim_main_bginput" scale9Grid="4,3,27,26" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="contentGrp" width="1418.49" height="763.63" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" verticalCenter="0">
+		<e:Button id="closeBtn" label="" right="0" top="-28" anchorOffsetX="0" anchorOffsetY="0" skinName="CommonButtonCloseSkin" x="736" y="-45" scaleX="1" scaleY="1"/>
+		<e:Button id="functionBtn" label="下载图片" anchorOffsetX="0" anchorOffsetY="0" skinName="CommonButtonSkin" bottom="-29.37" y="510" scaleX="1" scaleY="1" width="70" height="28" horizontalCenter="0"/>
+	</e:Group>
+
+
+</e:Skin>

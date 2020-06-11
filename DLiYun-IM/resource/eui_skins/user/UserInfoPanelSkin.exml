@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UserInfoPanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="175" height="175">
+	<e:Image source="dlyim_info_bg" scale9Grid="20,20,49,51" height="175" width="175" left="0" top="0"/>
+	<e:Image id="headImg" width="35" height="35" x="22.34" y="19.31"/>
+	<e:Label id="nameLabel" text="昵称放这" x="67.32" y="31.32" fontFamily="Microsoft YaHei" size="12" textColor="0x000000" anchorOffsetX="0"/>
+	<e:Image id="genderIcon" x="133.92" y="27.3" source="dlyim_info_boy" visible="false"/>
+	<e:Label id="idLabel" text="微信号：1234" x="21.47" y="78" fontFamily="Microsoft YaHei" size="10" anchorOffsetX="0" textColor="0xa1a1a1"/>
+	<e:Label id="beizhu" text="备注" x="21.97" y="98" fontFamily="Microsoft YaHei" size="10" textColor="0xA1A1A1" anchorOffsetX="0"/>
+	<e:Label id="diqu" text="地区" x="21.97" y="117.17" fontFamily="Microsoft YaHei" size="10" textColor="0xA1A1A1" anchorOffsetX="0"/>
+	<e:Label id="laiyuan" text="来源" x="21.97" y="136.34" fontFamily="Microsoft YaHei" size="10" textColor="0xA1A1A1" anchorOffsetX="0"/>
+	<e:Image id="line" width="150" source="dlyim_main_line2" scale9Grid="3,0,18,1" horizontalCenter="0.5" verticalCenter="-21"/>
+	<e:Label id="beizhuLabel" text="包子" x="51.97" y="98" fontFamily="Microsoft YaHei" size="10" anchorOffsetX="0" textColor="0x000000"/>
+	<e:Label id="diquLabel" text="广东 深圳" x="51.97" y="117.17" fontFamily="Microsoft YaHei" size="10" anchorOffsetX="0" textColor="0x000000"/>
+	<e:Label id="laiyuanLabel" text="通过群聊添加" x="51.97" y="136.34" fontFamily="Microsoft YaHei" size="10" anchorOffsetX="0" textColor="0x000000"/>
+	<e:Button id="btnShare" label="" x="138.54" y="142.5" scaleX="0.5" scaleY="0.5" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="dlyim_info_share" source.down="dlyim_info_share"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnTalk" label="" x="136.52" y="144.33" scaleX="0.5" scaleY="0.5" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="dlyim_info_talk" source.down="dlyim_info_talk"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnAdd" label="" x="136.85" y="142.17" scaleX="0.5" scaleY="0.5" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="dlyim_info_addfriend" source.down="dlyim_info_addfriend"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

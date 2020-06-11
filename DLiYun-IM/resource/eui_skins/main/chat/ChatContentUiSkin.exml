@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatContentUISkin" width="1634" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:dliyun="dliyun.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="chat_bg_png" scale9Grid="5,4,31,31" scaleX="1" scaleY="1" right="0" left="0" bottom="0" top="0"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Group id="uiGroup" width="1634" height="1080" x="0" y="0">
+		<e:Image width="100%" x="0" scaleX="1" scaleY="1" height="1" scale9Grid="3,0,19,1" source="dlyim_main_linechattop" top="49"/>
+		<e:Image source="contacts_line_png" scale9Grid="3,0,24,1" width="542" x="0" bottom="148" y="451" scaleX="1" scaleY="1" height="1" visible="false"/>
+		<e:Image id="editBg" x="0" width="100%" height="145.3" scaleX="1" scaleY="1" bottom="0" anchorOffsetY="0" source="dliyun_main_bginput" scale9Grid="3,3,25,22"/>
+		<e:Image id="editBg_s" x="0" width="100%" height="145.3" scaleX="1" scaleY="1" bottom="0" anchorOffsetY="0" scale9Grid="4,3,30,22" source="dliyun_main_bginput_s"/>
+		<e:Label id="nameLab" text="我的名字" size="17" fontFamily="Microsoft YaHei" textColor="0x000000" height="44" textAlign="left" scaleX="1" scaleY="1" anchorOffsetX="0" width="626.67" anchorOffsetY="0" left="16" top="18"/>
+		<e:Button label="" scaleX="0.5" scaleY="0.5" left="20" bottom="121">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dlyim_icon_expression1" source.down="dlyim_icon_expression2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+
+
+
+		</e:Button>
+		<e:Button id="fileBtn" label="" scaleX="0.5" scaleY="0.5" left="50" bottom="121">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dlyim_icon_file1" source.down="dlyim_icon_file2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+
+
+
+		</e:Button>
+		<e:Button label="" scaleX="0.5" scaleY="0.5" bottom="121" left="78">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dlyim_icon_screenshot1" source.down="dlyim_icon_screenshot2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+
+
+		</e:Button>
+		<e:Button label="" scaleX="0.5" scaleY="0.5" bottom="121" left="110">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dlyim_icon_record1" source.down="dlyim_icon_record2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+
+
+		</e:Button>
+		<e:Button label="" scaleX="0.5" scaleY="0.5" width="36" height="29" right="47" bottom="123">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dlyim_icon_voice1" source.down="dlyim_icon_voice2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+
+
+		</e:Button>
+		<e:Button label="" scaleX="0.5" scaleY="0.5" width="39" height="25" right="16" bottom="123">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="dlyim_icon_video1" source.down="dlyim_icon_video2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+
+
+		</e:Button>
+		<e:Scroller id="scroller" height="878" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="auto" includeInLayout="false" verticalScrollBar="false" horizontalScrollBar="false" scaleX="1" scaleY="1" y="49" width="1634" x="0">
+			<e:Group id="chatRecordGroup" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+				<e:VerticalLayout gap="10" horizontalAlign="center" verticalAlign="top" paddingTop="6"/>
+			</e:layout>
+			<dliyun:ChatBubbleOtherUI x="240" y="242" skinName="ChatBubbleOtherUISkin"/>
+			<dliyun:ChatBubbleSelfUI x="157" y="220" skinName="ChatBubbleSelfUISkin"/>
+			</e:Group>
+		</e:Scroller>
+		<e:Button id="sendBtn" label="发送" right="11" bottom="6" x="445" y="560" scaleX="1" scaleY="1" width="64" height="25">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="64" height="25">
+				<e:Image source="dlyim_main_send2" source.down="dlyim_main_send1" left="0" top="0" bottom="0" right="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text.up="发送(S)" size.up="14" fontFamily.up="Microsoft YaHei" textColor.up="0x000000" size.down="14" fontFamily.down="Microsoft YaHei" textColor.down="0xffffff" text.down="发送(S)" size="15" fontFamily="Microsoft YaHei"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:EditableText id="chatContentTxt" width="1634" height="74.22" text="" x="0" anchorOffsetY="0" anchorOffsetX="0" textColor="0x000000" fontFamily="Microsoft YaHei" size="14" multiline="true" restrict="^\n" scaleX="1" scaleY="1" bottom="38"/>
+		<e:Button id="copyBtn" label="复制" x="362" y="565" anchorOffsetX="0" width="72" anchorOffsetY="0" height="28" scaleX="1" scaleY="1" visible="false"/>
+		<e:Button id="showMoreBtn" label="查看更多消息" anchorOffsetX="0" anchorOffsetY="0" skinName="CommonButtonSkin" top="66" horizontalCenter="0"/>
+		<e:Button id="testBtn" label="删除记录" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" skinName="CommonButtonSkin" right="24" top="14" visible="false"/>
+		<e:Button id="settingBtn" label="· · ·" y="2.07" right="8" anchorOffsetX="0" width="70" anchorOffsetY="0" height="45" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image left="0" top="0" right="0" bottom="0" height="70" width="80" source="chat_bg_png" scale9Grid="8,3,50,54" includeIn="down"/>
+				<e:Image left="0" top="0" right="0" bottom="0" height="70" width="80" source="chat_bg_png" scale9Grid="8,3,50,54" includeIn="up"/>
+				<e:Image source.disabled="dlyim1_json.dlyim_main_btnarrow" left="0" top="0" right="0" bottom="0" height="70" width="80" source.down="dlyim1_json.dliyun_main_bginput_s" source="chat_bg_png" scale9Grid="8,3,50,54" includeIn="disabled"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="· · ·" textColor="0x1e1e1e" size="20" fontFamily="Microsoft YaHei" bold="true" size.up="15" size.down="15"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<dliyun:ChatSettingPanel id="chatSettingPanel" skinName="ChatSettingsSkin" anchorOffsetX="0" width="220" anchorOffsetY="0" top="0" right="0" bottom="0"/>
+
+	</e:Group>
+</e:Skin>

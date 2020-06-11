@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NewFriendPanelSkin" width="1634" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" scale9Grid="5,4,31,31" source="dlyim_main_bgbox" top="0" left="0" right="0" bottom="0"/>
+	<e:Label id="nameLab" text="新的朋友" size="17" fontFamily="Microsoft YaHei" textColor="0x000000" height="44" textAlign="left" scaleX="1" scaleY="1" anchorOffsetX="0" width="626.67" anchorOffsetY="0" left="16" top="18"/>
+	<e:Image id="line1" width="100%" source="dlyim_main_line2" scale9Grid="12,0,9,1" scaleX="1" scaleY="1" top="49" horizontalCenter="0"/>
+	<e:Scroller id="scroller" anchorOffsetX="0" left="89" right="89" anchorOffsetY="0" top="62" bottom="58">
+		<e:List id="newFriendListId"/>
+	</e:Scroller>
+</e:Skin>

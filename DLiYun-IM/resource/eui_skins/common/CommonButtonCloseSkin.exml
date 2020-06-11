@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="CommonButtonCloseSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" width="57" height="26">
+    <e:Image width="100%" height="100%" alpha.disabled="0.5"
+            
+             horizontalCenter="0" verticalCenter="0" source.down="dlyim_main_send1" source="dlyim1_json.dliyun_main_bginput_s" scale9Grid="2,4,33,22"/>
+	<e:Image horizontalCenter="0" verticalCenter="0" source="dlyim_main_btnclose"/>
+    <e:Label id="labelDisplay"
+             size="12"
+             fontFamily="Microsoft YaHei" textColor="0x05b21a" horizontalCenter="0" verticalCenter="0"/>
+    <e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0" source="dlyim1_json.dlyim_login_btnclose" source.up="dlyim_login_btnclose" visible="false"/>
+</e:Skin>

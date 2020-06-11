@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatSettingsSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:dliyun="dliyun.*" width="220" height="982">
+	<e:Image source="dlyim_setting_bg" scale9Grid="4,5,28,31"  bottom="0" right="0" left="0" top="0"/>
+	<e:Image id="line" source="dlyim_main_line2" width="100%" horizontalCenter="0"
+	          top="480" visible="false"/>
+	<e:ToggleSwitch label="消息免打扰" x="16" y="517.67" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="31" source="dlyim_setting_toggleoff" source.down="dlyim_setting_toggleon" horizontalCenter="0"/>
+			<e:Label id="toggleLabel" text="消息免打扰" textColor="0xa7a7a7" size="10" fontFamily="Microsoft YaHei" y="-15.35" horizontalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:ToggleSwitch>
+	<e:Scroller id="userScroller" width="220" height="239" x="0" anchorOffsetY="0" anchorOffsetX="0" top="49" y="0" scaleX="1" scaleY="1">
+		<e:Group id="scrollerGrp" anchorOffsetX="0" anchorOffsetY="0">
+		<dliyun:UserItem width="40" height="53" x="16" y="9.5" skinName="UserItemSkin1"/>
+		<dliyun:UserItem width="40" height="53" x="26" y="19.5" skinName="UserItemSkin1"/>
+		<dliyun:UserItem width="40" height="53" x="36" y="29.5" skinName="UserItemSkin1"/>
+		<dliyun:UserItem width="40" height="53" x="46" y="39.5" skinName="UserItemSkin1"/>
+		<dliyun:UserItem width="40" height="53" x="56" y="49.5" skinName="UserItemSkin1"/>
+		<e:layout>
+			<e:TileLayout paddingLeft="14" paddingTop="15" horizontalGap="11" verticalGap="13"/>
+		</e:layout>
+		</e:Group>
+	</e:Scroller>
+	<e:Button id="addUserBtn" label="添加" x="12" y="302" width="35" height="45" scaleX="1" scaleY="1" anchorOffsetY="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" height="45">
+			<e:Image width="35" height="35" source="dlyim_main_btnadd" source.down="dlyim_main_btnadd" source.disabled="dlyim_main_btnadd"/>
+			<e:Label id="labelDisplay" verticalCenter="22" textColor="0xa7a7a7" fontFamily="Microsoft YaHei" size="9" text="添加" horizontalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="removeUserBtn" label="移除" x="62" y="302" width="35" height="45" scaleX="1" scaleY="1" anchorOffsetY="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" height="45">
+			<e:Image width="35" height="35" source="dlyim_main_btnadd" source.down="dlyim_main_btnadd" source.disabled="dlyim_main_btnadd"/>
+			<e:Label id="labelDisplay" verticalCenter="22" textColor="0xa7a7a7" fontFamily="Microsoft YaHei" size="9" text="添加" horizontalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="line0" width="198" source="dlyim_main_line2" scale9Grid="3,0,18,1" y="290" horizontalCenter="0"/>
+	<e:Button id="exitBtn" label="删除并退出群聊" skinName="NoFrameButtonSkin" bottom="34" horizontalCenter="-0.5" touchChildren="true" touchEnabled="true" anchorOffsetX="0" width="219"/>
+	<e:Button id="deleteBtn" label="删除聊天记录" skinName="NoFrameButtonSkin" bottom="0" horizontalCenter="-0.5" touchChildren="true" touchEnabled="true" anchorOffsetX="0" width="219"/>
+	<e:Button id="closeBtn" label="" x="155" y="11" skinName="CommonButtonCloseWSkin"/>
+	<e:Label id="groupName" text="群名" x="14" y="378" size="12" fontFamily="Microsoft YaHei" textColor="0xa7a7a7"/>
+	<e:Label id="groupNameLabel" text="xxxxx交流群" x="14" y="398.36" size="12" fontFamily="Microsoft YaHei" textColor="0x000000"/>
+	<e:Label id="editNameBtn" text="修改群名" x="166" y="398.36" textColor="0x05b21a" size="12" fontFamily="Microsoft YaHei"/>
+	<e:Label id="editNameCancelBtn" text="取消修改" x="166" y="398.36" textColor="0x05B21A" size="12" fontFamily="Microsoft YaHei"/>
+	<e:EditableText id="editNameInput" width="184" height="19.33" text="" x="14" y="418.98" anchorOffsetX="0" anchorOffsetY="0" size="12" fontFamily="Microsoft YaHei" prompt="请输入名称" promptColor="0xa7a7a7" textColor="0x000000"/>
+	<e:Label id="confirmEditBtn" text="确认修改" x="14" y="438.36" textColor="0x05B21A" size="12" fontFamily="Microsoft YaHei"/>
+</e:Skin>

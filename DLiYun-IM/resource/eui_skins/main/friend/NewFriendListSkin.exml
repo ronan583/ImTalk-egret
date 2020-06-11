@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NewFriendListSkin" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="headImg" source="WechatIMG6_png" width="49" height="49" verticalCenter="0" left="8"/>
+	<e:Label id="nickName" text="{data.nickName}" y="19.99" size="13" fontFamily="Microsoft YaHei" left="68" textColor="0x000000"/>
+	<e:Label id="explain" y="48.99" size="10" fontFamily="Microsoft YaHei" left="69" text="{data.explain}" textColor="0xa1a1a1"/>
+	<e:Label id="statusLabel" size="10" fontFamily="Microsoft YaHei" textColor="0xA1A1A1" text="已添加" right="42" verticalCenter="0"/>
+	<e:Button id="btnAgree" label="同意" scaleX="1" scaleY="1" width="55" height="22" anchorOffsetX="0" anchorOffsetY="0" y="29" right="82">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="55" height="22" xmlns:dliyun="dliyun.*">
+			<e:Image width="55" height="22" source="dlyim_main_send1" source.down="dlyim_main_send2" source.disabled="dlyim_main_send2" scale9Grid="16,6,96,38"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text.up="确定" size.up="12" fontFamily.up="Microsoft YaHei" text.down="确定" size.down="12" textColor.down="0x000000" fontFamily.down="Microsoft YaHei" text.disabled="发消息" size.disabled="15" textColor.disabled="0xa0a0a0" fontFamily.disabled="Microsoft YaHei" size="12" fontFamily="Microsoft YaHei" textAlign="center" verticalAlign="middle"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btnReject" label="拒绝" scaleX="1" scaleY="1" width="55" height="22" anchorOffsetX="0" anchorOffsetY="0" y="29" right="12">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="55" height="22">
+			<e:Image width="100%" height="100%" source="dlyim_main_send2" source.down="dlyim_main_send2" source.disabled="dlyim_main_send2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text.up="取消" size.up="12" fontFamily.up="Microsoft YaHei" text.down="取消" size.down="12" textColor.down="0x000000" fontFamily.down="Microsoft YaHei" text.disabled="发消息" size.disabled="15" textColor.disabled="0xa0a0a0" fontFamily.disabled="Microsoft YaHei" size="12" fontFamily="Microsoft YaHei" textAlign="center" verticalAlign="middle" xmlns:dliyun="dliyun.*" textColor.up="0x000000" text="取消" textColor="0x000000"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

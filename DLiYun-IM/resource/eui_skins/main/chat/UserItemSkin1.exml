@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UserItemSkin1" width="40" height="53" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" top="0" right="0" bottom="0">
+		<e:Image id="headImg" source="dlyim_icon_expression2" width="35" height="35" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="0"/>
+		<e:Label id="nameLabel" text="姓名" fontFamily="Microsoft YaHei" size="9" textColor="0xa7a7a7" horizontalCenter="0" bottom="1.6000000000000014"/>
+	</e:Group>
+</e:Skin>

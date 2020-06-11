@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NewFriendRadioSkin" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" xmlns:e="http://ns.egret.com/eui" width="221" height="67">
+    <e:Group width="100%" height="100%">
+        <e:Image fillMode="scale" alpha="1" alpha.disabled="0.5" alpha.down="0.7"
+                 source="radiobutton_unselect_png"
+                 source.upAndSelected="radiobutton_select_up_png"
+                 source.downAndSelected="radiobutton_select_down_png"
+                 source.disabledAndSelected="radiobutton_select_disabled_png" visible="false"/>
+        <e:Label id="labelDisplay" size="20" textColor="0x707070"
+                 textAlign="center" verticalAlign="middle"
+                 fontFamily="Tahoma" visible="false"/>
+			<e:Image id="selectImg" source="contacts_list_bg_png" scale9Grid="1,1,13,13" scaleX="1" scaleY="1" anchorOffsetX="0" left="0" top="0" bottom="0" right="0" visible.up="false" visible.disabled="false" visible.down="false" visible.upAndSelected="false" visible.downAndSelected="false" visible.disabledAndSelected="false"/>
+			<e:Image id="headImg" width="49" height="49" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="dlyim1_json.dlyim_contact_iconnew" y="9" left="8"/>
+			<e:Label id="nickName" x="70" size="13" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" verticalCenter="0" text="新的朋友" anchorOffsetX="0" width="100.8" y="19"/>
+    </e:Group>
+</e:Skin>

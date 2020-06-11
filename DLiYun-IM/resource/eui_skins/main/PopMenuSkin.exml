@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PopMenuSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="btnGrp" width="70" height="70.5" x="0" y="0" anchorOffsetY="0">
+		<e:Button id="btn0" label="发起群聊" x="0" y="0" skinName="CommonButtonSkin" scaleX="1" scaleY="1"/>
+		<e:Button id="btn1" label="添加好友" x="0" y="30" skinName="CommonButtonSkin" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:VerticalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

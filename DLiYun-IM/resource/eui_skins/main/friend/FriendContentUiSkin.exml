@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendContentUiSkin" width="1634" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:dliyun="dliyun.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" scale9Grid="5,4,31,31" source="dlyim_main_bgbox" top="0" left="0" right="0" bottom="0"/>
+	<e:Button id="settingBtn" label="· · ·" y="2.07" right="8" anchorOffsetX="0" width="70" anchorOffsetY="0" height="45" scaleY="1" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image left="0" top="0" right="0" bottom="0" height="70" width="80" source="chat_bg_png" scale9Grid="8,3,50,54" includeIn="down"/>
+			<e:Image left="0" top="0" right="0" bottom="0" height="70" width="80" source="chat_bg_png" scale9Grid="8,3,50,54" includeIn="up"/>
+			<e:Image source.disabled="dlyim1_json.dlyim_main_btnarrow" left="0" top="0" right="0" bottom="0" height="70" width="80" source.down="dlyim1_json.dliyun_main_bginput_s" source="chat_bg_png" scale9Grid="8,3,50,54" includeIn="disabled"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text="· · ·" textColor="0x1e1e1e" size="20" fontFamily="Microsoft YaHei" bold="true" size.up="15" size.down="15"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="line1" width="100%" source="dlyim_main_line2" scale9Grid="12,0,9,1" scaleX="1" scaleY="1" top="49" horizontalCenter="0"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Group id="uiGroup" width="266" height="310" anchorOffsetX="0" anchorOffsetY="0" top="80" horizontalCenter="0">
+
+		<e:Image id="line2" width="100%" top="102" source="dlyim_main_line2" scale9Grid="12,0,9,1" y="220" scaleX="1" scaleY="1" height="1" horizontalCenter="0"/>
+		<e:Image id="line3" width="100%" top="218" source="dlyim_main_line2" scale9Grid="12,0,9,1" y="360" scaleX="1" scaleY="1" height="1" horizontalCenter="0"/>
+		<e:Label text="备注" x="52.98" y="117.66" size="13" fontFamily="Microsoft YaHei" textColor="0xA1A1A1" scaleX="1" scaleY="1"/>
+		<e:Label text="地区" x="52.98" y="147.65" size="13" fontFamily="Microsoft YaHei" textColor="0xA1A1A1" scaleX="1" scaleY="1"/>
+		<e:Label text="来源" x="52.98" y="177.64" size="13" fontFamily="Microsoft YaHei" textColor="0xA1A1A1" scaleX="1" scaleY="1"/>
+		<e:Image id="headImg" width="60" height="60" x="188.36" y="22.67" scaleX="1" scaleY="1"/>
+
+		<e:Label id="nameLabel" text="我的昵称" x="21.32" y="25.64" size="18" fontFamily="Microsoft YaHei" textColor="0x000000" scaleX="1" scaleY="1"/>
+		<e:Label id="signatureLabel" text="我的签名123456566" x="21.96" y="51.98" size="13" fontFamily="Microsoft YaHei" textColor="0xa1a1a1" scaleX="1" scaleY="1"/>
+		<e:Label id="idLabel" text="id: 8243662923" x="21.96" y="73.63" size="13" fontFamily="Microsoft YaHei" textColor="0xA1A1A1" scaleX="1" scaleY="1"/>
+		<e:Image id="genderIcon" x="142.96" y="24.64" scaleX="1" scaleY="1" source="dlyim_info_boy"/>
+		<e:Label id="beizhuLabel" text="备注" x="92.96" y="117.66" size="13" fontFamily="Microsoft YaHei" textColor="0x000000" scaleX="1" scaleY="1"/>
+		<e:EditableText id="beizhuEdit" width="160" height="19" text="" x="53" y="107" size="12" fontFamily="Microsoft YaHei" anchorOffsetX="0" anchorOffsetY="0" textColor="0x000000" scaleX="1" scaleY="1"/>
+		<e:Label id="diquLabel" text="地区" x="92.96" y="147.65" size="13" fontFamily="Microsoft YaHei" textColor="0x000000" scaleX="1" scaleY="1"/>
+		<e:Label id="laiyuanLabel" text="来源" x="92.96" y="177.64" size="13" fontFamily="Microsoft YaHei" textColor="0x000000" scaleX="1" scaleY="1"/>
+		<e:Button id="sendBtn" label="发消息" y="236" scaleX="1" scaleY="1" width="123" height="22" horizontalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" height="22" width="123">
+				<e:Image width="100%" height="100%" source="dlyim_main_send1" source.down="dlyim_main_send2" source.disabled="dlyim_main_send2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text.up="发消息" size.up="13" fontFamily.up="Microsoft YaHei" text.down="发消息" size.down="13" textColor.down="0x000000" fontFamily.down="Microsoft YaHei" text.disabled="发消息" size.disabled="15" textColor.disabled="0xa0a0a0" fontFamily.disabled="Microsoft YaHei" size="13" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="deleteBtn" label="发消息" y="276.02" scaleX="1" scaleY="1" width="123" height="22" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" width="123" height="22">
+				<e:Image width="100%" height="100%" source="dlyim_main_send2" source.down="dlyim_main_send2" source.disabled="dlyim_main_send2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text.up="删除好友" size.up="13" fontFamily.up="Microsoft YaHei" text.down="删除好友" size.down="13" textColor.down="0x000000" fontFamily.down="Microsoft YaHei" text.disabled="发消息" size.disabled="15" textColor.disabled="0xa0a0a0" fontFamily.disabled="Microsoft YaHei" size="12" fontFamily="Microsoft YaHei" textAlign="center" verticalAlign="middle" textColor.up="0x000000" text="删除好友" textColor="0x000000"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

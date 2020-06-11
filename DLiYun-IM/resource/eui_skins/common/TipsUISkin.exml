@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TipsUISkin" width="800" height="600" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*">
+    <w:Config id="166365a9d7c"></w:Config>
+    <e:Image id="bg" source="noticetip_bg_png" scale9Grid="36,39,27,17" anchorOffsetX="0" anchorOffsetY="0" scaleX="1"
+             scaleY="1" left="0" right="0" top="0" bottom="0" />
+    <e:Label id="tipsLabel" text="体验游戏币不足。马上去充值，走上人生巅峰" anchorOffsetX="0" width="380.34"
+             textAlign="center" anchorOffsetY="0" height="145.54" borderColor="0x020202" multiline="true"
+             fontFamily="Microsoft YaHei" lineSpacing="20" textColor="0xffffff" scaleX="1" scaleY="1" size="28"
+             verticalAlign="middle"  horizontalCenter="0" verticalCenter="0"/>
+    <e:Label text="系统提示" y="23" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" size="33" horizontalCenter="0" />
+</e:Skin>

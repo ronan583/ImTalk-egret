@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="CommonButtonSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" width="70" height="28" width.down="70" height.down="28">
+    <e:Image alpha.disabled="0.5"
+            
+             source.down="dlyim_main_send1" scale9Grid.down="3,5,121,40" anchorOffsetX="0" anchorOffsetY="0" left.down="0" top.down="0" bottom.down="0" right.down="0" left="0" top="0" right="0" bottom="0" source="chat_bg_png" scale9Grid="2,4,5,3"/>
+    <e:Label id="labelDisplay"
+             size.disabled="20" size.down="12"
+             fontFamily="Microsoft YaHei" textColor="0x05b21a" textColor.down="0xffffff" horizontalCenter="0" verticalCenter="0" textAlign="center" verticalAlign="middle" size="12" textColor.up="0x05b21a"/>
+    <e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

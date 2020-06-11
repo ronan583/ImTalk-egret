@@ -1,0 +1,57 @@
+syntax = "proto3";
+option java_package = "com.dliyun.core.im.ws.protocol";
+package Common;
+//性别
+enum Gender {
+    secret = 0; //保密
+    male = 1; //男
+    female = 2; //女
+}
+
+//心跳
+message Heartbeat {
+    int64 timeline = 1;
+    string deviceId = 2;
+    string operatingSystem = 3;
+
+}
+
+message InfoMsg {
+    string msg = 1;
+}
+
+message JSONString {
+    string jsonString = 1;
+}
+
+message UpdateUserInfo {
+    string nickName = 1;
+    string avatar = 2;
+    Gender gender = 3;
+}
+
+message AppRunState {
+    string state = 1;
+}
+
+//二维码信息
+message QRCodeInfo {
+    string info = 1;
+}
+
+message OauthInfo {
+    int64 id = 1;
+    string nickName = 2;
+    int64 loginTime = 3;
+    string accessToken = 4;
+    string avatar = 5;
+    Gender gender = 6;
+}
+
+//重连
+message UserReconnect {
+	int64 id = 1;
+	string accessToken=2;
+	string operatingSystem=3;
+}
+

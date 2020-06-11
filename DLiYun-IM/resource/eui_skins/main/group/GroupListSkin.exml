@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GroupListSkin" width="221" height="67" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="selectImg" source="contacts_list_bg_png" scale9Grid="1,1,13,13" top="0" left="0" bottom="0" right="0"/>
+	<e:Image id="headImg" source="WechatIMG6_png" width="49" height="49" verticalCenter="0" left="8"/>
+	<e:Label id="nickName" text="{data.nickName}" x="68" y="16" size="13" fontFamily="Microsoft YaHei"/>
+	<e:Label id="userCount" x="69" y="45" size="10" fontFamily="Microsoft YaHei" textColor="0xc3c1c1" text="{data.userCount}"/>
+
+</e:Skin>

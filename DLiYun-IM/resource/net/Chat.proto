@@ -1,0 +1,118 @@
+syntax = "proto3";
+option java_package = "com.dliyun.core.im.ws.protocol";
+import "Common.proto";
+package Chat;
+
+//好友基本信息
+message FriendInfo {
+    int64 id = 1;
+    string nickName = 2;
+    string avatar = 3;
+    Gender gender = 4;
+    string remarkName = 5;
+    bool isOnline = 6;
+    int64 lastOnline = 7; //最后在线时间
+}
+
+//群基本信息
+message GroupInfo {
+    int64 id = 1;
+    string name = 2;
+    string avatar = 3;
+    int64 ownerId = 4;
+    int64 userCount = 5;
+}
+
+enum RelationType {
+    friend = 0;
+    group = 1;
+}
+
+enum MsgType {
+    text = 0; //文字
+    image = 1; //图片
+    gif = 2; //动画
+    voice = 3; //语音
+    tel = 4; //电话
+    tel_video = 5; //视频电话
+    info = 6; //提示信息
+    file = 7; //文件
+
+    empty = 10; //空
+}
+
+message ChatFriendMsg {
+    string uuid = 1;
+    int64 from = 2;
+    int64 to = 3;
+    int64 timeline = 4;
+    MsgType msgType = 5;
+    string content = 6;
+    bool isRevoke = 7;
+    bool isSendOK = 8;
+}
+
+message ChatGroupMsg {
+    string uuid = 1;
+    FriendInfo from = 2;
+    int64 groupId = 5;
+    int64 timeline = 6;
+    MsgType msgType = 7;
+    string content = 8;
+    bool isRevoke = 9;
+    bool isSendOK = 10;
+}
+//撤回消息
+message RevokeMessage {
+    string uuid = 1;
+    string msgUuid = 2;
+    int64 relationId = 3;
+    RelationType relationType = 4;
+}
+//删除离线消息
+message DeleteOfflineMsg {
+    string uuid = 1;
+}
+
+//创建新群
+message CreateNewGroup {
+    repeated int64 userIds = 1;
+}
+//删除并退出
+message DeleteAndExitGroup {
+    int64 groupId = 1;
+}
+//获取群成员
+message GroupUsers {
+    int64 groupId = 1;
+    repeated FriendInfo listUsers = 2;
+}
+//邀请入群
+message InviteToGroup {
+    int64 groupId = 1;
+    repeated int64 userIds = 2;
+}
+
+message UpdateGroupInfo {
+    GroupInfo groupInfo = 1;
+}
+
+//移除群成员
+message RemoveFromGroup {
+    int64 groupId = 1;
+    repeated int64 userIds = 2;
+}
+
+//申请添加关系
+message RelationApply {
+    string id = 1;
+    int64 relationId = 2; //好友、群ID
+    RelationType relationType = 3; //申请类型friend/group
+    FriendInfo applyUser = 4; //申请者信息
+    string explain = 5; //申请说明
+    int64 timeline = 6;
+    string state = 7;
+}
+message RemoveFriend {
+    int64 friendId = 1;
+}

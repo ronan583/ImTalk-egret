@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatTimeUISkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="1634" height="18">
+	<e:Rect width="50" height="18" strokeAlpha="0" fillColor="0xb5b5b5" anchorOffsetX="0" ellipseWidth="7" ellipseHeight="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" alpha="0.55"/>
+	<e:Label id="timeLabel" text="11:24" size="12" fontFamily="Microsoft YaHei" textColor="0xffffff" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

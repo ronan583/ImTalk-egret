@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatBubbleOtherUISkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"          width="1634" height="70">
+	<e:Image id="headImg" source="WechatIMG6_png" width="35" height="35"             left="10" top="10"/>
+	<e:Label id="nickName" text="我的名字" x="54.35" size="12" fontFamily="Microsoft YaHei" top="4" textColor="0xc3c3c1"/>
+	<e:Image id="bg" anchorOffsetX="0"            scaleX="0.5" scaleY="0.5"             x="51.09" top="24" source="dlyim_main_bubble1" anchorOffsetY="0" scale9Grid="14,44,16,18" width="225.8" visible="false"/>
+	<e:Label id="chatContentInfo" size="14" fontFamily="Microsoft YaHei" textColor="0x000000" scaleX="1"            scaleY="1"             text="我的名字" y="35.45" left="65" textAlign="left" visible="false"/>
+	<e:Image id="chatImg" anchorOffsetX="0" width="118" scaleX="1" scaleY="1" x="55.25" top="26" scale9Grid="11,20,18,5" source="" visible="false"/>
+	<e:Image id="menuPoint" width="0" height="0" top="-12" left="83"/>
+	<e:Image id="attachBg" anchorOffsetX="0" width="340.18" scaleX="0.5" scaleY="0.5" top="24" scale9Grid="12,42,22,18" anchorOffsetY="0" height="111.34" source="dlyim_main_bubble1" left="53"/>
+	<e:Image id="attachImg" source="dlyim1_json.dlyim_icon_fileattach" y="32.99" scaleX="0.4" scaleY="0.4" left="185"/>
+	<e:Label id="fileLabel" size="14" fontFamily="Microsoft YaHei" textColor="0x000000" scaleX="1" scaleY="1" text="qqqqqqqqqqqqq" y="43.41" anchorOffsetX="0" width="117.5" left="62"/>
+</e:Skin>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendSelecterListSkin" width="252" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="selectImg" source="contacts_list_bg_png" scale9Grid="1,1,13,13" scaleX="1" scaleY="1" top="0" left="0" right="0" bottom="0"/>
+	<e:Image id="headImg" source="WechatIMG6_png" width="43" height="43" left="8" x="5" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0"/>
+	<e:Label id="nickName" x="55.6" size="12" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" anchorOffsetX="0" verticalCenter="0" width="131.5" text="{data.nickName}" textColor="0x000000"/>
+	<e:RadioButton label="" x="211.5" y="14.5" skinName="SelecterRadioSkin" visible="false"/>
+	<e:CheckBox id="selectCheckbox" label="" x="216" skinName="SelecterCheckboxSkin" verticalCenter="0"/>
+	<e:Button id="deleteBtn" label="" x="217" width="23" height="23" verticalCenter="0.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="dlyim1_json.dlyim_main_btncancel" source.down="dlyim1_json.dlyim_main_btncancel" source.disabled="dlyim1_json.dlyim_main_btncancel"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

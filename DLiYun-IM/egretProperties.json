@@ -1,0 +1,46 @@
+{
+  "engineVersion": "5.2.33",
+  "compilerVersion": "5.2.33",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "socket"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "puremvc",
+      "path": "../modules/puremvc"
+    },{
+			"name": "protobuf",
+			"path": "../modules/protobuf"
+		},
+    {
+      "name": "cryptojs",
+      "path": "../modules/cryptojs"
+    },
+    {
+      "name": "uploader",
+      "path": "./libs/uploader"
+    }
+  ]
+}

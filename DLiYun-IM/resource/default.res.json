@@ -1,0 +1,435 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,egret_icon_png,description_json,Voice_2_png,Add_png,chat_2_png,chat_3_png,chat_1_png,chat_4_png,contacts_1_png,contacts_2_png,expression_1_png,expression_2_png,file_1_png,file_2_png,record_1_png,record_2_png,screenshot_1_png,screenshot_2_png,setting_1_png,setting_2_png,video_1_png,video_2_png,Voice_1_png,WechatIMG6_png,input_bg_2_png,jingyin_img_png,chat_bg_png,contacts_png,time_bg_png,number_btn_png,search_bg_2_png,search_bg_png,search_bg_1_png,input_bg_1_png,left_bg_png,contacts_list_bg_png,contacts_line_png,sound_msg_mp3,IMgif1_png,IMgif1_json,IMgif2_png,IMgif2_json,s_dlyim_icon_expression1_png,s_dlyim_icon_expression2_png,s_dlyim_icon_voice2_png,s_dlyim_icon_voice1_png,s_dlyim_icon_video2_png,s_dlyim_icon_video1_png,s_dlyim_icon_screenshot2_png,s_dlyim_icon_screenshot1_png,s_dlyim_icon_record2_png,s_dlyim_icon_record1_png,s_dlyim_icon_file2_png,s_dlyim_icon_file1_png,dlyim1_json,dlyim_login_bg_png,dlyim_loading_ctricon_png,dlyim_loading_ctricon1_png,dlyim_loading_ctricon2_png,dlyim_loading_ctricon12_png,dlyim_login_bg2_png",
+			"name": "preload"
+		},
+		{
+			"keys": "dlyim_login_bg_png,dlyim_loading_ctricon_png,dlyim_loading_ctricon1_png",
+			"name": "loadingUI"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/main/Voice_2.png",
+			"type": "image",
+			"name": "Voice_2_png"
+		},
+		{
+			"url": "assets/main/Add.png",
+			"type": "image",
+			"name": "Add_png"
+		},
+		{
+			"url": "assets/main/chat_2.png",
+			"type": "image",
+			"name": "chat_2_png"
+		},
+		{
+			"url": "assets/main/chat_3.png",
+			"type": "image",
+			"name": "chat_3_png"
+		},
+		{
+			"url": "assets/main/chat_1.png",
+			"type": "image",
+			"name": "chat_1_png"
+		},
+		{
+			"url": "assets/main/chat_4.png",
+			"type": "image",
+			"name": "chat_4_png"
+		},
+		{
+			"url": "assets/main/contacts_1.png",
+			"type": "image",
+			"name": "contacts_1_png"
+		},
+		{
+			"url": "assets/main/contacts_2.png",
+			"type": "image",
+			"name": "contacts_2_png"
+		},
+		{
+			"url": "assets/main/expression_1.png",
+			"type": "image",
+			"name": "expression_1_png"
+		},
+		{
+			"url": "assets/main/expression_2.png",
+			"type": "image",
+			"name": "expression_2_png"
+		},
+		{
+			"url": "assets/main/file_1.png",
+			"type": "image",
+			"name": "file_1_png"
+		},
+		{
+			"url": "assets/main/file_2.png",
+			"type": "image",
+			"name": "file_2_png"
+		},
+		{
+			"url": "assets/main/record_1.png",
+			"type": "image",
+			"name": "record_1_png"
+		},
+		{
+			"url": "assets/main/record_2.png",
+			"type": "image",
+			"name": "record_2_png"
+		},
+		{
+			"url": "assets/main/screenshot_1.png",
+			"type": "image",
+			"name": "screenshot_1_png"
+		},
+		{
+			"url": "assets/main/screenshot_2.png",
+			"type": "image",
+			"name": "screenshot_2_png"
+		},
+		{
+			"url": "assets/main/setting_1.png",
+			"type": "image",
+			"name": "setting_1_png"
+		},
+		{
+			"url": "assets/main/setting_2.png",
+			"type": "image",
+			"name": "setting_2_png"
+		},
+		{
+			"url": "assets/main/video_1.png",
+			"type": "image",
+			"name": "video_1_png"
+		},
+		{
+			"url": "assets/main/video_2.png",
+			"type": "image",
+			"name": "video_2_png"
+		},
+		{
+			"url": "assets/main/Voice_1.png",
+			"type": "image",
+			"name": "Voice_1_png"
+		},
+		{
+			"url": "assets/main/WechatIMG6.png",
+			"type": "image",
+			"name": "WechatIMG6_png"
+		},
+		{
+			"url": "assets/main/input_bg_2.png",
+			"type": "image",
+			"name": "input_bg_2_png"
+		},
+		{
+			"url": "assets/main/jingyin_img.png",
+			"type": "image",
+			"name": "jingyin_img_png"
+		},
+		{
+			"url": "assets/main/chat_bg.png",
+			"type": "image",
+			"name": "chat_bg_png"
+		},
+		{
+			"url": "assets/main/contacts.png",
+			"type": "image",
+			"name": "contacts_png"
+		},
+		{
+			"url": "assets/main/time_bg.png",
+			"type": "image",
+			"name": "time_bg_png"
+		},
+		{
+			"url": "assets/main/number_btn.png",
+			"type": "image",
+			"name": "number_btn_png"
+		},
+		{
+			"url": "assets/main/search_bg_2.png",
+			"type": "image",
+			"name": "search_bg_2_png"
+		},
+		{
+			"url": "assets/main/search_bg.png",
+			"type": "image",
+			"name": "search_bg_png"
+		},
+		{
+			"url": "assets/main/search_bg_1.png",
+			"type": "image",
+			"name": "search_bg_1_png"
+		},
+		{
+			"url": "assets/main/input_bg_1.png",
+			"type": "image",
+			"name": "input_bg_1_png"
+		},
+		{
+			"url": "assets/main/left_bg.png",
+			"type": "image",
+			"name": "left_bg_png"
+		},
+		{
+			"url": "assets/main/contacts_list_bg.png",
+			"type": "image",
+			"name": "contacts_list_bg_png"
+		},
+		{
+			"url": "assets/main/contacts_line.png",
+			"type": "image",
+			"name": "contacts_line_png"
+		},
+		{
+			"url": "assets/sound/sound_msg.mp3",
+			"type": "sound",
+			"name": "sound_msg_mp3"
+		},
+		{
+			"url": "assets/IMgif1.png",
+			"type": "image",
+			"name": "IMgif1_png"
+		},
+		{
+			"url": "assets/IMgif1.json",
+			"type": "json",
+			"name": "IMgif1_json"
+		},
+		{
+			"url": "assets/IMgif2.png",
+			"type": "image",
+			"name": "IMgif2_png"
+		},
+		{
+			"url": "assets/IMgif2.json",
+			"type": "json",
+			"name": "IMgif2_json"
+		},
+		{
+			"url": "assets/other/s_dlyim_icon_expression1.png",
+			"type": "image",
+			"name": "s_dlyim_icon_expression1_png"
+		},
+		{
+			"url": "assets/other/s_dlyim_icon_expression2.png",
+			"type": "image",
+			"name": "s_dlyim_icon_expression2_png"
+		},
+		{
+			"url": "assets/other/s_dlyim_icon_voice2.png",
+			"type": "image",
+			"name": "s_dlyim_icon_voice2_png"
+		},
+		{
+			"url": "assets/other/s_dlyim_icon_voice1.png",
+			"type": "image",
+			"name": "s_dlyim_icon_voice1_png"
+		},
+		{
+			"url": "assets/other/s_dlyim_icon_video2.png",
+			"type": "image",
+			"name": "s_dlyim_icon_video2_png"
+		},
+		{
+			"url": "assets/other/s_dlyim_icon_video1.png",
+			"type": "image",
+			"name": "s_dlyim_icon_video1_png"
+		},
+		{
+			"url": "assets/other/s_dlyim_icon_screenshot2.png",
+			"type": "image",
+			"name": "s_dlyim_icon_screenshot2_png"
+		},
+		{
+			"url": "assets/other/s_dlyim_icon_screenshot1.png",
+			"type": "image",
+			"name": "s_dlyim_icon_screenshot1_png"
+		},
+		{
+			"url": "assets/other/s_dlyim_icon_record2.png",
+			"type": "image",
+			"name": "s_dlyim_icon_record2_png"
+		},
+		{
+			"url": "assets/other/s_dlyim_icon_record1.png",
+			"type": "image",
+			"name": "s_dlyim_icon_record1_png"
+		},
+		{
+			"url": "assets/other/s_dlyim_icon_file2.png",
+			"type": "image",
+			"name": "s_dlyim_icon_file2_png"
+		},
+		{
+			"url": "assets/other/s_dlyim_icon_file1.png",
+			"type": "image",
+			"name": "s_dlyim_icon_file1_png"
+		},
+		{
+			"url": "assets/dlyim1.json",
+			"type": "sheet",
+			"name": "dlyim1_json",
+			"subkeys": "dliyun_main_bginput,dliyun_main_bginput_s,dlyim_addfriend_bg,dlyim_addfriend_input,dlyim_contact_bgbtn,dlyim_contact_iconnew,dlyim_icon_add,dlyim_icon_add1,dlyim_icon_chat00,dlyim_icon_chat01,dlyim_icon_chat10,dlyim_icon_chat11,dlyim_icon_contact1,dlyim_icon_contact2,dlyim_icon_expression1,dlyim_icon_expression2,dlyim_icon_file1,dlyim_icon_file2,dlyim_icon_fileattach,dlyim_icon_filemusic,dlyim_icon_fileword,dlyim_icon_record1,dlyim_icon_record2,dlyim_icon_screenshot1,dlyim_icon_screenshot2,dlyim_icon_setting1,dlyim_icon_setting2,dlyim_icon_video1,dlyim_icon_video2,dlyim_icon_voice1,dlyim_icon_voice2,dlyim_info_addfriend,dlyim_info_bg,dlyim_info_boy,dlyim_info_girl,dlyim_info_share,dlyim_info_talk,dlyim_loading_ctricon,dlyim_loading_ctricon1,dlyim_login_bg,dlyim_login_bg2,dlyim_login_bgQR,dlyim_login_btnbig,dlyim_login_btnclose,dlyim_login_small,dlyim_main_barscroll,dlyim_main_bgbox,dlyim_main_bginput,dlyim_main_bglist,dlyim_main_bgsearch1,dlyim_main_bgsearch2,dlyim_main_bgsearch3,dlyim_main_bgsearch4,dlyim_main_bgsearch5,dlyim_main_bgsearch6,dlyim_main_bgside,dlyim_main_btnadd,dlyim_main_btnarrow,dlyim_main_btnbig,dlyim_main_btncancel,dlyim_main_btnclose,dlyim_main_btnconfirm,dlyim_main_btnsmall,dlyim_main_bubble1,dlyim_main_bubble2,dlyim_main_grouphead,dlyim_main_iconsearch,dlyim_main_line,dlyim_main_line2,dlyim_main_linechattop,dlyim_main_reddot,dlyim_main_select,dlyim_main_send1,dlyim_main_send2,dlyim_setting_bg,dlyim_setting_btnarrow,dlyim_setting_toggleoff,dlyim_setting_toggleon"
+		},
+		{
+			"url": "assets/dlyim_login_bg.png",
+			"type": "image",
+			"name": "dlyim_login_bg_png"
+		},
+		{
+			"url": "assets/dlyim_loading_ctricon.png",
+			"type": "image",
+			"name": "dlyim_loading_ctricon_png"
+		},
+		{
+			"url": "assets/dlyim_loading_ctricon1.png",
+			"type": "image",
+			"name": "dlyim_loading_ctricon1_png"
+		},
+		{
+			"name": "dlyim_loading_ctricon2_png",
+			"type": "image",
+			"url": "assets/dlyim_loading_ctricon.png"
+		},
+		{
+			"name": "dlyim_loading_ctricon12_png",
+			"type": "image",
+			"url": "assets/dlyim_loading_ctricon1.png"
+		},
+		{
+			"name": "dlyim_login_bg2_png",
+			"type": "image",
+			"url": "assets/dlyim_login_bg.png"
+		}
+	]
+}

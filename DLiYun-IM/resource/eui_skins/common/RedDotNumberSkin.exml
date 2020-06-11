@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RedDotNumberSkin" width="15" height="15" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="dlyim1_json.dlyim_main_reddot" left="0" top="0" bottom="0" right="0"/>
+	<e:Label id="numLabel" text="99+" size="8" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="31.85" anchorOffsetY="0" height="16.83" textAlign="center" verticalAlign="middle" verticalCenter="0" horizontalCenter="1"/>
+</e:Skin>

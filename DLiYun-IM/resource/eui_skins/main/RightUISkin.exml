@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RightUISkin" width="1634" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:dliyun="dliyun.*" xmlns:w="http://ns.egret.com/wing">
+
+	<dliyun:FriendContentUI id="friendInfoContent" skinName="FriendContentUiSkin" horizontalCenter="0" verticalCenter="0" width="1634"/>
+	<dliyun:GroupContentUI id="groupContentUI" x="0" y="0" skinName="GroupContentUISkin" width="1634"/>
+
+	<dliyun:NewFriendPanel id="newFriendUI" width="1634" height="1080" x="0" y="0" skinName="NewFriendPanelSkin"/>
+	<dliyun:ChatContentUI id="chatContentUI" skinName="ChatContentUISkin" horizontalCenter="0" verticalCenter="0" width="1634"/>
+</e:Skin>

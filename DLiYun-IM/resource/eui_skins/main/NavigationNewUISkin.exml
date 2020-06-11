@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NavigationNewUISkin" width="65" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:dliyun="dliyun.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="dlyim_main_bgside" left="0" top="0" bottom="0" right="0" scale9Grid="6,9,11,10"/>
+	<e:Image id="headImg" source="WechatIMG6_png" horizontalCenter="0.5" top="29" width="40" height="40"/>
+	<e:RadioButton id="radionBtn1" label="" horizontalCenter="1.5" y="126.35" enabled="true" selected="true" value="1" groupName="radionBtn" width="28" height="24">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:dliyun="dliyun.*">
+			<e:Image width="100%" height="100%" source="dlyim_icon_chat00" source.down="dlyim_icon_chat01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="radionBtn2" label="" y="178.7" horizontalCenter="0" value="2" groupName="radionBtn" width="35" height="21">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:dliyun="dliyun.*">
+			<e:Image width="100%" height="100%" source="dlyim_icon_chat10" source.down="dlyim_icon_chat11"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:Image id="newFriendReddot" width="5" height="5" x="19" y="226" source="dlyim1_json.dlyim_main_reddot"/>
+	<e:RadioButton id="radionBtn3" label="" y="229.05" horizontalCenter="0.5" value="3" groupName="radionBtn" width="26" height="27">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:dliyun="dliyun.*">
+			<e:Image width="100%" height="100%" source="dlyim_icon_contact1" source.down="dlyim_icon_contact2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:Button id="settingBtn" label="" horizontalCenter="0.5" bottom="21" width="29" height="28">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:dliyun="dliyun.*">
+			<e:Image width="100%" height="100%" source="dlyim_icon_setting2" source.down="dlyim_icon_setting1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<dliyun:RedDotNumber id="unreadCountLabel" x="15" y="118.03" skinName="RedDotNumberSkin" visible="false"/>
+	<e:Button id="testBtn" label="toast test" y="290.08" anchorOffsetX="0" width="54.67" anchorOffsetY="0" height="32.67" horizontalCenter="0" visible="false"/>
+</e:Skin>

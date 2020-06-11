@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginUISkin" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="1920">
+	<e:Image horizontalCenter="0" verticalCenter="0" source="dlyim_login_bg2" visible="false"/>
+	<e:Image source="dlyim_login_bg" scale9Grid="240,135,1440,810" width="1920" height="1080" horizontalCenter="0" verticalCenter="0"/>
+
+	<e:Image scaleX="1" scaleY="1" source="dlyim_login_bgQR" anchorOffsetX="0" width="230" anchorOffsetY="0" height="230" verticalCenter="60.5" horizontalCenter="0.5" scale9Grid="27,27,169,169"/>
+
+	<e:Group id="qrGruop" width="200" height="200" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="60" horizontalCenter="0">
+
+	</e:Group>
+	<e:Group id="qrGruop0" width="200" height="200" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="60" horizontalCenter="0">
+		<e:Label id="loginLabel" text="请使用APP扫一扫登录" fontFamily="Microsoft YaHei" size="30" horizontalCenter="0" top="-124" x="-4" y="-222" scaleX="1" scaleY="1"/>
+		<e:Button id="clearBtn" label="清除聊天记录" skinName="CommonButtonSkin" anchorOffsetX="0" anchorOffsetY="0" right="-284" bottom="20" x="843" y="475" scaleX="1" scaleY="1" width="76"/>
+		<e:Button id="clearBtn0" label="清除原始数据" skinName="CommonButtonSkin" anchorOffsetX="0" anchorOffsetY="0" right="-284" bottom="-19" x="853" y="485" scaleX="1" scaleY="1" width="76"/>
+
+
+	</e:Group>
+
+	<e:Rect width="238.18" height="63.94" x="369.95" y="511" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xffffff" visible="false"/>
+	<e:EditableText id="testEdit" width="230.3" height="60.61" text="" x="370.95" y="514" anchorOffsetX="0" anchorOffsetY="0" textColor="0x000000" visible="false"/>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoadingUISkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image scale9Grid="240,135,1440,810" width="1920" height="1080" horizontalCenter="0" verticalCenter="0" source="dlyim_login_bg_png"/>
+	<e:Label id="textField" text="正在加载" fontFamily="Microsoft YaHei" size="30" horizontalCenter="-800" x="-4" scaleX="1" scaleY="1" textColor="0x4ac0cb" verticalCenter="-294"/>
+	<e:Image id="dtalkIcon1" horizontalCenter="-803" verticalCenter="-415" source="dlyim_loading_ctricon1"/>
+	<e:Image id="dtalkIcon" source="dlyim_loading_ctricon" horizontalCenter="-803" verticalCenter="-415"/>
+	<e:Rect id="maskDtalk" width="130" height="130" horizontalCenter="-803" verticalCenter="-415"/>
+</e:Skin>

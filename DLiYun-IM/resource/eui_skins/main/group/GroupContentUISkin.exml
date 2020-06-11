@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GroupContentUISkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:dliyun="dliyun.*" width="1634" height="1080">
+	<e:Image id="bg" scale9Grid="5,4,31,31" source="dlyim_main_bgbox" right="0" bottom="0" left="0" top="0"/>
+	<e:Image id="line1" width="100%" x="0" source="dlyim_main_line2" scale9Grid="12,0,9,1" y="49" scaleX="1" scaleY="1" height="1"/>
+	<e:Label id="countLabel" text="21人" x="97.99" y="18.5" size="13" fontFamily="Microsoft YaHei" textColor="0x000000" scaleX="1" scaleY="1" visible="false"/>
+	<e:Label id="nameLabel" text="xxx交流群" x="14.66" y="18.17" size="17" fontFamily="Microsoft YaHei" textColor="0x000000" scaleX="1" scaleY="1"/>
+	<e:Group id="uiGroup" width="266" height="672" horizontalCenter="0" top="104" anchorOffsetY="0" visible="false">
+
+
+
+
+
+
+
+
+
+
+	</e:Group>
+	<e:Group width="360" height="345" y="62.33" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Button id="sendBtn" label="发消息" y="298.67" scaleX="1" scaleY="1" width="143" height="34" horizontalCenter="0.16499999999999204" x="72">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:dliyun="dliyun.*" width="143" height="34">
+				<e:Image width="100%" height="100%" source="dlyim_main_send1" source.down="dlyim_main_send2" source.disabled="dlyim_main_send2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text.up="发消息" size.up="16" fontFamily.up="Microsoft YaHei" text.down="发消息" size.down="16" textColor.down="0x000000" fontFamily.down="Microsoft YaHei" text.disabled="发消息" size.disabled="15" textColor.disabled="0xa0a0a0" fontFamily.disabled="Microsoft YaHei" size="16" fontFamily="Microsoft YaHei"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Scroller id="scroller" width="360" height="288" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group id="userGroup" anchorOffsetX="0" anchorOffsetY="0">
+				<e:layout>
+					<e:TileLayout horizontalGap="42" verticalGap="71"/>
+				</e:layout>
+				<dliyun:UserItem width="20" height="20" x="47" y="32" skinName="UserItemSkin"/>
+				<dliyun:UserItem width="20" height="20" x="57" y="42" skinName="UserItemSkin"/>
+				<dliyun:UserItem width="20" height="20" x="67" y="52" skinName="UserItemSkin"/>
+				<dliyun:UserItem width="20" height="20" x="77" y="62" skinName="UserItemSkin"/>
+				<dliyun:UserItem width="20" height="20" x="87" y="72" skinName="UserItemSkin"/>
+				<dliyun:UserItem width="20" height="20" x="97" y="82" skinName="UserItemSkin"/>
+				<dliyun:UserItem width="20" height="20" x="107" y="92" skinName="UserItemSkin"/>
+				<dliyun:UserItem width="20" height="20" x="117" y="102" skinName="UserItemSkin"/>
+				<dliyun:UserItem width="20" height="20" x="127" y="112" skinName="UserItemSkin"/>
+				<dliyun:UserItem width="20" height="20" x="137" y="122" skinName="UserItemSkin"/>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

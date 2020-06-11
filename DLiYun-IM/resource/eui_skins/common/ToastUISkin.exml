@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ToastUISkin" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="140" height="60" horizontalCenter="0" verticalCenter="0" fillColor="0xfcfcfc" strokeAlpha="0" ellipseWidth="30" ellipseHeight="30" fillAlpha="1"/>
+	<e:Label id="toastLabel" text="复制成功" fontFamily="Microsoft YaHei" size="15" textColor="0x232323" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

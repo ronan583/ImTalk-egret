@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NavigationUISkin" width="137" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:dliyun="dliyun.*">
+	<w:Config id="16f894e50a9"/>
+	<e:Image source="dlyim_main_bgside" scale9Grid="6,9,11,10" top="0" bottom="0" left="0" right="0"/>
+	<e:Image id="headImg" source="WechatIMG6_png" horizontalCenter="0.5" top="45" width="76" height="76"/>
+	<e:RadioButton id="radionBtn1" label="" horizontalCenter="1" y="193" enabled="true" selected="true" value="1" groupName="radionBtn" width="55" height="48">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="dlyim_icon_chat00" source.down="dlyim_icon_chat01"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+
+	</e:RadioButton>
+	<e:RadioButton id="radionBtn2" label="" y="312" horizontalCenter="0" value="2" groupName="radionBtn">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="dlyim_icon_chat10" source.down="dlyim_icon_chat11"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+
+	</e:RadioButton>
+	<e:RadioButton id="radionBtn3" label="" y="429" horizontalCenter="0.5" value="3" groupName="radionBtn">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="dlyim_icon_contact1" source.down="dlyim_icon_contact2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+
+	</e:RadioButton>
+	<e:Image id="redDot0" x="36.03" y="86.02" source="dlyim_main_reddot" visible="false"/>
+	<e:Image x="36.03" y="142.02" id="redDot1" source="dlyim_main_reddot" visible="false"/>
+	<e:Image x="36.03" y="199.02" id="redDot2" source="dlyim_main_reddot" visible="false"/>
+	<e:Button id="settingBtn" label="" horizontalCenter="0.5" bottom="29">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="dlyim_icon_setting2" source.down="dlyim_icon_setting1"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="testBtn" label="测试未读" x="25.15" y="520.85" visible="false"/>
+	<dliyun:RedDotNumber id="unreadCountLabel" x="29" y="183" skinName="RedDotNumberSkin"/>
+</e:Skin>

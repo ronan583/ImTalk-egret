@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SelecterCheckboxSkin" states="up,down,disabled,upAndSelected,downAndSelected,disabledAndSelected" xmlns:e="http://ns.egret.com/eui">
+    <e:Group width="100%" height="100%">
+        <e:layout>
+            <e:HorizontalLayout verticalAlign="middle"/>
+        </e:layout>
+        <e:Image fillMode="scale" alpha="1" alpha.disabled="0.5" alpha.down="0.7"
+                 source="checkbox_unselect_png"
+                
+                
+                 source.up="radiobutton_unselect_png" source.down="radiobutton_unselect_png" source.disabled="radiobutton_unselect_png" source.upAndSelected="dlyim1_json.dlyim_main_btnconfirm" width.upAndSelected="22" height.upAndSelected="22" source.downAndSelected="dlyim1_json.dlyim_main_btnconfirm" width.downAndSelected="22" height.downAndSelected="22" source.disabledAndSelected="dlyim1_json.dlyim_main_btnconfirm" width.disabledAndSelected="22" height.disabledAndSelected="22" width.disabled="22" height.disabled="22" width.down="22" height.down="22" width.up="22" height.up="22"/>
+        <e:Label id="labelDisplay" size="20" textColor="0x707070"
+                 textAlign="center" verticalAlign="middle"
+                 fontFamily="Tahoma"/>
+    </e:Group>
+</e:Skin>

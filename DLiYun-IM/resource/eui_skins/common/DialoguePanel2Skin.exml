@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DialoguePanel2Skin" width="375" height="230" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" top="0" bottom="0" right="0" source="dlyim1_json.dliyun_main_bginput_s" scale9Grid="3,3,32,23"/>
+	<e:Label id="titleLabel" text="删除好友" size="13" fontFamily="Microsoft YaHei" textColor="0xa7a7a7" top="17" anchorOffsetX="0" width="119" textAlign="left" verticalAlign="middle" horizontalCenter="-105"/>
+	<e:Label id="explainLabel" text="标题2" size="13" fontFamily="Microsoft YaHei" textColor="0xA7A7A7" top="144" anchorOffsetX="0" width="205.4" textAlign="left" verticalAlign="middle" horizontalCenter="-62"/>
+	<e:Group width="330" height="80" y="49" anchorOffsetY="0" horizontalCenter="0.5" visible="false">
+		<e:Image left="0" top="0" bottom="0" right="0" x="-23" y="-49" scaleX="1" scaleY="1" source="dlyim1_json.dlyim_addfriend_input" scale9Grid="3,6,20,16"/>
+		<e:EditableText id="inputText" width="320" height="72" text="" size="13" fontFamily="Microsoft YaHei" textColor="0x000000" horizontalCenter="0" verticalCenter="0" prompt="请输入要查找的id"/>
+	</e:Group>
+	<e:Button id="btn1" label="发消息" y="194.5" scaleX="1" scaleY="1" width="55" height="22" horizontalCenter="72" anchorOffsetX="0" anchorOffsetY="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" width="55" height="22" xmlns:dliyun="dliyun.*">
+			<e:Image width="55" height="22" source="dlyim_main_send1" source.down="dlyim_main_send2" source.disabled="dlyim_main_send2" scale9Grid="16,6,96,38"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text.up="确定" size.up="12" fontFamily.up="Microsoft YaHei" text.down="确定" size.down="12" textColor.down="0x000000" fontFamily.down="Microsoft YaHei" text.disabled="发消息" size.disabled="15" textColor.disabled="0xa0a0a0" fontFamily.disabled="Microsoft YaHei" size="12" fontFamily="Microsoft YaHei" textAlign="center" verticalAlign="middle"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn2" label="发消息" y="194.5" scaleX="1" scaleY="1" width="55" height="22" horizontalCenter="142" anchorOffsetX="0" anchorOffsetY="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" width="55" height="22">
+			<e:Image width="100%" height="100%" source="dlyim_main_send2" source.down="dlyim_main_send2" source.disabled="dlyim_main_send2"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" text.up="取消" size.up="12" fontFamily.up="Microsoft YaHei" text.down="取消" size.down="12" textColor.down="0x000000" fontFamily.down="Microsoft YaHei" text.disabled="发消息" size.disabled="15" textColor.disabled="0xa0a0a0" fontFamily.disabled="Microsoft YaHei" size="12" fontFamily="Microsoft YaHei" textAlign="center" verticalAlign="middle" xmlns:dliyun="dliyun.*" textColor.up="0x000000" text="取消" textColor="0x000000"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="closeBtn" label="" anchorOffsetX="0" anchorOffsetY="0" skinName="CommonButtonCloseSkin" x="334.5" y="14" scaleX="1" scaleY="1" width="27.5" height="16.5"/>
+</e:Skin>
